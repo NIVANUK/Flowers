@@ -1,4 +1,4 @@
-import org.w3c.dom.ranges.Range;
+//import org.w3c.dom.ranges.Range;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -10,11 +10,11 @@ import java.util.Scanner;
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
-    private static String inputFName;
+   // private static String inputFName;
 
     public static void main(String[] args) throws IOException {
-        String InputFName="KRead";// KRead created for trening;
-        Scanner sc=new Scanner(new File(inputFName));
+        String inputFName="KRead.txt";// KRead created for trening;
+        Scanner sc=new Scanner(new File("KRead.tt"));
         int k= sc.nextInt();
 
         String rf;
